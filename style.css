@@ -1,3 +1,4 @@
+/* max-width:1915px */
 *{
    margin:0;
    padding:0;
@@ -45,7 +46,7 @@
   cursor:pointer;
 }
 .right{
-  padding-right: 1%;
+  padding-right: 3%;
   flex:0.2;
   display:flex;
   justify-content:space-between;
@@ -293,7 +294,7 @@
   width:80%;
   position:absolute;
   top:0;
-  height:100%;
+  height:85.8%;
   margin-left:14.2%;
   margin-top:6.6%;
 }
@@ -407,14 +408,14 @@
 .rsbimg{
   width:20px;
   height:20px;
-  margin-left:22px;
+  margin-left:10px;
   margin-top:26px;
   cursor:pointer;
 }
 .rsb-top #cal{
   width:20px;
   height:20px;
-  margin-left:22px;
+  margin-left:10px;
   cursor:pointer;
 
 }
@@ -438,13 +439,13 @@
 
 }
 .rsb-add .material-icons{
-  margin-left:22px;
+  margin-left:10px;
 }
 .rsb-che .material-icons{
-  margin-left:22px;
+  margin-left:10px;
   margin-top:450px;
 }
-/*max-width 1500px */
+/* max-width 1500px */
 @media (min-width:769px) and (max-width: 1500px){
   .hangmid .iconify{
      display:none;
@@ -481,14 +482,15 @@
   max-width: 22%;
   }
   .top-side-bar{
-  margin-left:19.2%;
+  margin-left:18.2%;
   margin-top: 7.8%;
   width:74.3%;
   padding: 9px;
   }
   .mail-contain{
-  margin-left:19.2%;
   margin-top:10.6%;
+  max-height: 64%;
+  margin-left: 18.2%;
   }
   .mail-list{
   width:95.3%;
@@ -499,17 +501,27 @@
   .mail-list-top{
   width:96%;
   padding:9px;
+  border-left:1px solid whitesmoke;
   
+  }
+  .rsb-top #cal {
+  margin-left:21px;
   }
   .rsb{
   margin-left:94.5%;
   max-height: 50%;
-  margin-top:0.5%;
+  margin-top:0%;
 
+  }
+  .rsbimg{
+  margin-left:21px;
   }
   .rsb-che .material-icons{
   margin-left:22px;
   margin-top:190px;
+  }
+  .rsb-add .material-icons {
+  margin-left: 21px;
   }
   .hangmidtext h3{
   margin-top:19.5%;
@@ -524,7 +536,7 @@
   max-height:20%;
   }
 }
-/*max-width 768px*/
+/* max-width 768px */
 @media (min-width: 321px) and (max-width: 768px){
   .material-icons{
   font-size:18px;
@@ -580,6 +592,9 @@
   margin-top: 6%;
   margin-left: 12.5%;
   width: 96.3%;
+  }
+  .mail-contain {
+  max-height: 45%;
   }
   .rsb{
   margin-left: 107.5%;
@@ -644,8 +659,10 @@
   }
   .hangmid {
   border-bottom: 1px solid whitesmoke;
+  max-height: 61px;
   }
-  .hangfoot {
+  .hangfoot { 
+  display: none;
   }
   .sidehf .material-icons {
   font-size: 12px;
@@ -669,5 +686,198 @@
   .rsb-top #cal {
   width: 18px;
   height: 18px;
+  }
+}
+/*max-width:320px*/
+@media (max-width:320px){
+  .header{
+
+  }
+  .material-icons{
+  font-size: 9px;
+  }
+  .left #logo{
+  width:50px;
+  margin-left:15%;
+  height: 15px;
+  }
+  .left{
+  margin-left:1%;
+  }
+  .middle{
+  margin-left: 9%;
+  
+  }
+  .right{
+  padding-left:0;
+  }
+  .right .material-icons {
+  margin-right:8px;
+  }
+  .middle input{
+  padding:2px;
+  font-size: 6px;
+  }
+  .middle span{
+  margin-left: 3%;
+  margin-right: 3%;
+  }
+  #pro{
+  width: 11px;
+  }
+  .combtn{
+  padding: 5px;
+  width: 50px;
+  margin-left:3px;
+  }
+  .combtn h3{
+  font-size: 6px;
+  margin-left: 12px;
+  }
+  .combtn #add {
+  width:16px;
+  }
+  .top-side-bar {
+  margin-left: 24.25%;
+  margin-top: 5.5%;
+  width: 74.4%;
+  padding:1%;
+  }
+  .header{
+  width: 108.5%;
+  }
+  .mail-list {
+  margin-top: 6%;
+  margin-left: 12.5%;
+  width: 98.3%;
+  max-height: 98%;
+  }
+  .rsb{
+  margin-left: 107.5%;
+  margin-top: 6%;
+  } 
+  .mail-list-top {
+  width: 87%;
+  padding:1%;
+  }
+  .mlt-left h3 {
+  font-size: 6px;
+  }
+  .mlt-right h5 {
+  font-size: 5px;
+  margin-top: 4%;
+  }
+  .mlt-right .material-icons {
+  margin-top: 0%;
+  font-size: 7px;
+  }
+  .left-side-bar{
+  width: 24%;
+  }
+  .hang #himg {
+  width: 12px;
+  }
+  .hang h3 {
+  font-size: 6px;
+  }
+  .hang #og {
+  width: 3px;
+  height: 3px;
+  margin-top: 6px;
+  margin-left: 9px;
+  }
+  .sidebarOption h3 {
+  font-size: 6px;
+  }
+  .sidebarOption h5 {
+  font-size: 4.5px;
+  }
+  .sidebar-mid h5 {
+  font-size: 6px;
+  }
+  .sidebarOption .material-icons {
+  font-size: 8px;
+  margin-right: 6%;
+  padding: 1px;
+  }
+  .hang .sidebarOpt h5 {
+  font-size: 10.5px;
+  }
+  .emailRow {
+  height: 14px;
+  }
+  .emailRow__title {
+  font-size: 7px;
+  }
+  .emailRow__message h4 {
+   width: 106px;
+   font-size: 6px;
+  }
+  .emailRow__description {
+  display: none;
+  }
+  .emailRow__time {
+  padding-right: 15px;
+  font-size: 5px;
+  font-weight: bold;
+  }
+  .hangmid .iconify {
+  display:none;
+  }
+  .hangmid {
+  display:none;
+  }
+  .hangfoot {
+  display:none;
+  }
+  .rsb-che .material-icons {
+  margin-top: 53px;
+  margin-left:4px;
+  }
+  .rsb-add .material-icons {
+    margin-left: 4px;
+  }
+  .hangmidtext h3 {
+  font-size: 4.5px;
+  margin-top: 22%;
+  }
+  .hangmidtext h5 {
+  font-size: 4.5px;
+  margin-top: 2%;
+  }
+  .rsbimg {
+   width: 9px;
+   margin-top: 1px;
+   height: 9px;
+   margin-left: 5px;
+  }
+  .rsb-top #cal {
+  width: 9px;
+  height: 9px;
+  margin-left: 5px;
+  }
+  .sidebar{
+  max-width:57px;
+  }
+  .emailRow__options input {
+  width:8px;
+  }
+  .top-side-bar input {
+  width:8px;
+  }
+  .emailRow__options .material-icons {
+  margin-left: 5px;
+  }
+  .rsb-bottom {
+  height: 290px;
+  }
+  .rsb-top{
+  height: 107px;
+  }
+  .hang{
+  display:none;
+  }
+  .mail-contain {
+  height: 18.8%;
   }
 }
